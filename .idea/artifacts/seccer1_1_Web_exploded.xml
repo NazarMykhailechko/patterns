@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="seccer1_1:Web exploded">
+    <output-path>$PROJECT_DIR$/../seccer1_1/out/artifacts/seccer1_1_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="soccer1_1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="soccer1_1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

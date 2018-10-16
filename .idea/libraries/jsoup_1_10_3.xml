@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsoup-1.10.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/lib/jsoup-1.10.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/gunit-3.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

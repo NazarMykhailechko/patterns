@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestJavaScript</title>
+</head>
+<body>
+
+
+<button onclick="myname()">show name</button>
+<button onclick="myname2()">show name2</button>
+
+<style>
+    .data-container{
+        border-style: solid;
+    }
+</style>
+
+
+
+<div id="marker"/>
+<div id="showseconds" class="data-container"/>
+
+<script>
+
+    window.setInterval(function () {
+        document.getElementById("showseconds").innerHTML = new Date().getSeconds;
+    },100);
+
+
+   var myname = function () {
+        var el = document.getElementById("marker");
+       el.innerHTML = "Hello, Nazar!!!"
+    }
+
+
+   var myname2 = function () {
+       var el = document.getElementById("marker");
+       el.innerHTML = "Hello, Java!!!"
+   }
+
+</script>
+</body>
+</html>

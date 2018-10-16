@@ -1,0 +1,9 @@
+The weather is changed: temperature is: 19 pressure is : 255
+The weather is changed: temperature is: 25 pressure is : 199
+The weather is changed: temperature is: 21 pressure is : 155
+The weather is changed: temperature is: 19 pressure is : 255
+The weather is changed: temperature is: 25 pressure is : 199
+The weather is changed: temperature is: 21 pressure is : 155
+The weather is changed: temperature is: 19 pressure is : 255
+The weather is changed: temperature is: 25 pressure is : 199
+The weather is changed: temperature is: 21 pressure is : 155

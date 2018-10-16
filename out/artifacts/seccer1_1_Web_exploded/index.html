@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>simple</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <a href="/teams">get teams here</a>
+    <button onclick="sendreq()">sendreq</button>
+    <div id="dat">
+
+    </div>
+
+
+</body>
+
+<script>
+
+    function sendreq(){
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json', true);
+        xhr.send();
+
+        xhr.onreadystatechange = function() {
+
+            if (xhr.readyState !== 4) return;
+            if (xhr.status !== 200){
+                alert("Something went wrong!!!");
+            }else{
+                //alert(xhr.responseText);
+                document.getElementById("dat").innerHTML = xhr.responseText;
+            }
+
+
+
+        }
+    }
+
+</script>
+
+</html>
